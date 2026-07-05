@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: apple-system;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1a1111;
+  color: white;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.navilinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navilinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navilinks a:hover {
+  color: #00bcd4;
+}
